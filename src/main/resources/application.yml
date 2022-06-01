@@ -1,8 +1,18 @@
 spring :
   profiles:
     active:
-      EN,cat
+      - EN
+      - cat
+      - prod
 guru :
   username : usernameYaml
   password : mdpYaml
   jdbcurl : urlYaml
+
+---
+spring:
+  profiles: prod
+guru :
+  username : usernameProdYaml
+  password : mdpProdYaml
+  jdbcurl : urlProdYaml

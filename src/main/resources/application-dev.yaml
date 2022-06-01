@@ -1,0 +1,4 @@
+guru :
+  username : usernameDevYaml
+  password : mdpDevYaml
+  jdbcurl : urlDevYaml
