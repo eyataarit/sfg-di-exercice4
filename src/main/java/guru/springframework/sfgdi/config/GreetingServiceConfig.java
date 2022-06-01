@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 import pets.PetService;
 import pets.PetServiceFactory;
-@PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:di-config.xml")
 @Configuration
 public class GreetingServiceConfig {

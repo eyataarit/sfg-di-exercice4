@@ -1,0 +1,8 @@
+spring :
+  profiles:
+    active:
+      EN,cat
+guru :
+  username : usernameYaml
+  password : mdpYaml
+  jdbcurl : urlYaml
