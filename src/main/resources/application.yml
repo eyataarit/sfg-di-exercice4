@@ -3,7 +3,7 @@ spring :
     active:
       - EN
       - cat
-      - prod
+      - dev
 guru :
   username : usernameYaml
   password : mdpYaml
